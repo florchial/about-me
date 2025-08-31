@@ -16,11 +16,11 @@ body {
 
 .main-content {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 20px;
 }
 
 .personal-information {
@@ -28,13 +28,10 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: min-content;
     width: min-content;
     gap: 10px;
     border-radius: 20px;
-    position: sticky;
 }
 
 .profile-photo {
@@ -52,7 +49,7 @@ body {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: bolder;
 } 
 
@@ -71,7 +68,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 45vw;
+    width: 40vw;
     gap: 20px;
 }
 
@@ -83,26 +80,49 @@ body {
     gap: 20px;
 }
 
-.experience{
-    background-color: var(--main-color);
-    color: var(--background-color);
-    font-size: 1.5rem;
-    padding: 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    
+.highlight-link{
+    align-self: flex-end;
 }
 
-.projects {
-    background-color: var(--accent-color);
+.icon {
+    color: var(--background-color);
+}
+
+.highlight{
     color: var(--background-color);
     font-size: 1.5rem;
     padding: 20px;
     border-radius: 20px;
     font-weight: bold;
     align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.icon {
-    color: var(--background-color);
+#projects-highlight {
+    background-color: var(--accent-color);
+}
+
+#experience-highlight {
+    background-color: var(--main-color);
+}
+
+.single-experience-header {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.single-experience-content {
+    font-size: 1rem;
+}
+
+.single-experience-date {
+    font-weight: lighter;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
