@@ -3,7 +3,7 @@
   --secondary-color: #e7d5ed; 
   --accent-color: #8b0a3c;    
   --tertiary-color: #678fe1;      
-  --background-color: #f8efed;
+  --light-color: #f8efed;
   --text-color: black; 
   scroll-behavior: smooth;   
 }
@@ -11,7 +11,7 @@
 
 body {
     font-family: "Outfit", "Outfit Placeholder", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--light-color);
     box-sizing: border-box;
     margin: 20px;
     padding: 0;
@@ -85,6 +85,28 @@ body {
     font-size: 1.5rem;
 }
 
+.projects-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    font-weight: bold;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.project-photo {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
 .highlights {
     display: flex;
     flex-direction: row;
@@ -106,11 +128,11 @@ body {
 }
 
 .icon {
-    color: var(--background-color);
+    color: var(--light-color);
 }
 
 .highlight{
-    color: var(--background-color);
+    color: var(--light-color);
     font-size: 1.5rem;
     padding: 20px;
     border-radius: 20px;
@@ -152,7 +174,7 @@ body {
 }
 
 .content-detail {
-    gap: 30px;
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -160,20 +182,25 @@ body {
     align-items: center;
     margin-left: auto;
     flex-basis: 50%;
-    padding: 20px 100px 20px 100px;
+    padding: 0px 100px 20px 30px;
 }
 
 .detail{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
 
 @media (max-width: 600px) {
  .personal-information {
     position: relative;
     align-self: stretch;
     inset: 0px;
+ }
+ .content-detail {
+    padding: 0px;
  }
 }
 
