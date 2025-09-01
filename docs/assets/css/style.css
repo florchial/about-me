@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 30px;
 }
 
 .personal-information {
@@ -74,8 +74,6 @@ body {
     font-size: 1.5rem;
 }
 
-
-
 .highlights {
     display: flex;
     flex-direction: row;
@@ -86,7 +84,14 @@ body {
 }
 
 .highlight-link{
-    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.highlight-icon{
+    align-self: baseline;
+    flex-shrink: 0;
 }
 
 .icon {
@@ -100,10 +105,12 @@ body {
     border-radius: 20px;
     font-weight: bold;
     align-self: stretch;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     flex: 1;
+    text-decoration: none;
 }
 
 #projects-highlight {
@@ -117,8 +124,7 @@ body {
 }
 
 #talk-highlight {
-    background-color: var(--accent-color);
-    
+    background-color: var(--tertiary-color);
 }
 
 .single-experience-header {
@@ -134,9 +140,14 @@ body {
     font-weight: lighter;
 }
 
-.detail {
+.content-detail {
+    padding: 20px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
 }
+
+
+
 
