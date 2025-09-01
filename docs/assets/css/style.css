@@ -163,6 +163,12 @@ body {
     padding: 20px 100px 20px 100px;
 }
 
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 @media (max-width: 600px) {
  .personal-information {
     position: relative;
@@ -170,6 +176,8 @@ body {
     inset: 0px;
  }
 }
+
+
 
 
 
