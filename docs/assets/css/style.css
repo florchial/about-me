@@ -43,7 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex: 0 30 50%;
+    flex: 0.5 0.25 30%;
 }
 
 .profile-photo {
