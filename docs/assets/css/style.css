@@ -160,6 +160,10 @@ body {
     background-color: var(--tertiary-color);
 }
 
+#whatido-highlight{
+    background-color: var(--main-color);
+}
+
 .single-experience-header {
     font-size: 1.3rem;
     font-weight: bold;
