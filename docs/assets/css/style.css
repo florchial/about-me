@@ -3,8 +3,9 @@
   --secondary-color: #e7d5ed; 
   --accent-color: #8b0a3c;    
   --tertiary-color: #678fe1;      
-  --light-color: #f8efed;
+  --light-color: white;
   --text-color: black; 
+  --random-color: #f8efed;
   scroll-behavior: smooth;   
 }
 
@@ -28,7 +29,7 @@ body {
 }
 
 .personal-information {
-    background-color: var(--secondary-color);
+    background-color: var(--random-color);
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -149,7 +150,7 @@ body {
 }
 
 #projects-highlight {
-    background-color: var(--accent-color);
+    background-color: var(--main-color);
     
 }
 
@@ -159,7 +160,7 @@ body {
 }
 
 #talk-highlight {
-    background-color: var(--tertiary-color);
+    background-color: var(--accent-color);
 }
 
 #whatido-highlight {
