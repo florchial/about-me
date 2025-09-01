@@ -15,6 +15,7 @@ body {
     box-sizing: border-box;
     margin: 20px;
     padding: 0;
+    text-align: center;
 }
 
 .main-content {
@@ -38,6 +39,7 @@ body {
     position: sticky;
     inset: 20px;
     align-self: flex-start;
+    flex-basis: 20%;
 }
 
 .contact svg {
@@ -57,7 +59,7 @@ body {
     align-items: center;
     align-self: stretch;
     gap: 30px;
-    flex: 0.5 0.25 30%;
+    flex: 0.5 0.25 50%;
 }
 
 .profile-photo {
@@ -72,12 +74,12 @@ body {
 } 
 
 .title {
-    font-size: 3.3rem;
+    font-size: 3rem;
     font-weight: bolder;
 } 
 
 .subtitle {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -160,7 +162,7 @@ body {
     background-color: var(--tertiary-color);
 }
 
-#whatido-highlight{
+#whatido-highlight {
     background-color: var(--main-color);
 }
 
@@ -178,15 +180,14 @@ body {
 }
 
 .content-detail {
-    gap: 20px;
+    gap: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-left: auto;
+    margin-left: 30%;
     flex-basis: 50%;
-    padding: 0px 100px 20px 30px;
 }
 
 .detail{
@@ -197,14 +198,14 @@ body {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1280px) {
  .personal-information {
     position: relative;
     align-self: stretch;
     inset: 0px;
  }
  .content-detail {
-    padding: 0px;
+    margin: 0px;
  }
 }
 
