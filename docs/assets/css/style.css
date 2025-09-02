@@ -15,8 +15,8 @@ body {
     background-color: var(--lighter-color);
     background: radial-gradient(circle, var(--lighter-color) 0%, var(--light-color) 100%);;
     box-sizing: border-box;
-    margin: 30px;
-    padding: 0;
+    margin: 40px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -205,6 +205,8 @@ body {
 .detail{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 30px;
@@ -217,10 +219,10 @@ body {
     display:flex; 
     flex-wrap:wrap; 
     gap:8px; 
-    padding:0; 
     margin: 4px 0 0; 
     list-style:none; 
     justify-content: center;
+    align-items: center;
 }
 
 .tags li{ 
@@ -249,7 +251,6 @@ body {
     border-radius:20px;
     align-self: stretch;
     align-content: center;
-    justify-self: stretch;
     gap: 10px;
 }
 
