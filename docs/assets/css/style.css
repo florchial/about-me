@@ -123,6 +123,9 @@ body {
 
 .project-photo {
     border-radius: 20px 20px 0px 0px;
+    max-width: 480px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
 
 .highlights {
@@ -156,6 +159,7 @@ body {
     border-radius: 20px;
     font-weight: bold;
     align-self: stretch;
+    justify-self: stretch;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -311,6 +315,10 @@ ul {
 
  .content-detail {
     padding: 0;
+ }
+
+ .project-photo {
+   max-width: 80vw;
  }
 
 }
