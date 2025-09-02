@@ -15,23 +15,28 @@ body {
     background-color: var(--lighter-color);
     background: radial-gradient(circle, var(--lighter-color) 0%, var(--light-color) 100%);;
     box-sizing: border-box;
-    margin: 40px;
-    padding: 40px;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
 }
 
 .main-content {
     display: flex;
-    flex-direction: row;
     gap: 60px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 160px 160px 20px;
+    flex-direction: column;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    padding: 150px;
 }
 
 .personal-information {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -52,8 +57,8 @@ body {
     align-self: stretch;
     gap: 30px;
     text-align: center;
-    flex-basis: 50%;
-    flex-grow: 2;
+    padding: 30px;
+    flex-shrink: 0.5;
 }
 
 .contact svg {
@@ -192,7 +197,6 @@ body {
 
 
 .content-detail {
-    padding: 40px;
     gap: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -251,6 +255,7 @@ body {
     border-radius:20px;
     align-self: stretch;
     align-content: center;
+    text-align: center;
     gap: 10px;
 }
 
@@ -281,6 +286,18 @@ body {
         opacity: 1;
         translate: 0 0;
     }
+}
+
+@media (max-width: 1280px) {
+
+ .presentation {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+ }
+
 }
 
 
