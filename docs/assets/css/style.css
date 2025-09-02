@@ -263,6 +263,14 @@ body {
     text-align: center;
 }
 
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 @keyframes reveal {
     from {
         opacity: 0;
