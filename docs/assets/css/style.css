@@ -186,6 +186,10 @@ body {
     background-color: var(--main-color);
 }
 
+.single-experience {
+    max-width: 600px;
+}
+
 .single-experience-header {
     font-size: 1.3rem;
     font-weight: bold;
