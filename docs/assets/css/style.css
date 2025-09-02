@@ -241,7 +241,7 @@ body {
 }
 
 .service {
-    flex:2;
+    flex:1;
     display: flex;
     flex-direction: column;
     background-color: var(--light-color);
