@@ -109,10 +109,12 @@ body {
     gap: 10px;
     background-color: var(--main-color);
     color: var(--lighter-color);
-    font-weight: bold;
     border-radius: 20px;
     padding-bottom: 20px;
     text-align: center;
+}
+.project:hover {
+
 }
 
 .project-photo {
@@ -301,9 +303,8 @@ ul {
     white-space: nowrap;
     max-width: fit-content;
     animation:
-        typing 4s steps(35, end) forwards,
+        typing 4s steps(35, end) infinite,
         blink 0.8s infinite;
-    animation-range: entry 15% cover 50%;
 }
 
 @keyframes reveal {
