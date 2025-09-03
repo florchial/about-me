@@ -1,19 +1,20 @@
 :root {
-  --main-color: #39092a; 
-  --secondary-color: #f1e2f5; 
-  --accent-color: #8b0a3c;    
-  --tertiary-color: #678fe1;      
-  --lighter-color: white;
-  --text-color: black; 
-  --light-color: #f8efed;
-  scroll-behavior: smooth;   
+    --main-color: #39092a;
+    --secondary-color: #f1e2f5;
+    --accent-color: #8b0a3c;
+    --tertiary-color: #678fe1;
+    --lighter-color: white;
+    --text-color: black;
+    --light-color: #f8efed;
+    scroll-behavior: smooth;
 }
 
 
 body {
-    font-family:  sans-serif, "Outfit", "Outfit Placeholder", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-family: sans-serif, "Outfit", "Outfit Placeholder", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
     background-color: var(--lighter-color);
-    background: radial-gradient(circle, var(--lighter-color) 0%, var(--light-color) 100%);;
+    background: radial-gradient(circle, var(--lighter-color) 0%, var(--light-color) 100%);
+    ;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -47,7 +48,7 @@ body {
     min-width: fit-content;
 }
 
-.experience-and-proyects{
+.experience-and-proyects {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -62,9 +63,9 @@ body {
 }
 
 .contact svg {
-  width: 38px;
-  height: 38px;
-  stroke: var(--text-color);
+    width: 38px;
+    height: 38px;
+    stroke: var(--text-color);
 }
 
 .contact a {
@@ -82,16 +83,12 @@ body {
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
-} 
+}
 
 .title {
     font-size: 3rem;
     font-weight: bolder;
-} 
-
-.title span{
-    color: var(--accent-color)
-} 
+}
 
 .subtitle {
     font-size: 1.5rem;
@@ -137,13 +134,13 @@ body {
     gap: 20px;
 }
 
-.highlight-link{
+.highlight-link {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.highlight-icon{
+.highlight-icon {
     align-self: baseline;
     flex-shrink: 0;
 }
@@ -152,7 +149,7 @@ body {
     color: var(--lighter-color);
 }
 
-.highlight{
+.highlight {
     color: var(--lighter-color);
     font-size: 1.5rem;
     padding: 20px;
@@ -170,12 +167,12 @@ body {
 
 #projects-highlight {
     background-color: var(--main-color);
-    
+
 }
 
 #experience-highlight {
     background-color: var(--main-color);
-    
+
 }
 
 #talk-highlight {
@@ -216,7 +213,7 @@ body {
     padding-top: 0;
 }
 
-.detail{
+.detail {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,21 +226,21 @@ body {
     animation-range: entry 15% cover 50%;
 }
 
-.tags{ 
-    display:flex; 
-    flex-wrap:wrap; 
-    gap:8px; 
-    margin: 4px 0 0; 
-    list-style:none; 
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 4px 0 0;
+    list-style: none;
     justify-content: center;
     align-items: center;
 }
 
-.tags li{ 
-    font-size:.85rem; 
-    padding:6px 10px; 
-    background: var(--accent-color); 
-    border-radius: 999px; 
+.tags li {
+    font-size: .85rem;
+    padding: 6px 10px;
+    background: var(--accent-color);
+    border-radius: 999px;
     color: var(--light-color);
 }
 
@@ -257,19 +254,19 @@ body {
 }
 
 .service {
-    flex:1;
+    flex: 1;
     display: flex;
     flex-direction: column;
     background-color: var(--light-color);
     padding: 16px;
-    border-radius:20px;
+    border-radius: 20px;
     align-self: stretch;
     align-content: center;
     text-align: center;
     gap: 10px;
 }
 
-.service svg{
+.service svg {
     stroke: var(--text-color);
 }
 
@@ -287,47 +284,82 @@ body {
     gap: 20px;
 }
 
+ul {
+    padding-inline-start: 0;
+}
+
+.presentation-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reality {
+    font-size: 3.4rem;
+    font-weight: bolder;
+    overflow: hidden;
+    color: var(--accent-color);
+    border-right: .20em solid var(--accent-color);
+    white-space: nowrap;
+    max-width: fit-content;
+    animation:
+        typing 4s steps(30, end) forwards,
+        blink 0.8s infinite;
+}
+
 @keyframes reveal {
     from {
         opacity: 0;
         translate: 0px 10px;
     }
+
     to {
         opacity: 1;
         translate: 0 0;
     }
 }
 
-ul {
-    padding-inline-start: 0;
- }
+@keyframes typing {
+    from {
+        width: 0
+    }
 
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: var(--accent-color);
+    }
+}
 
 @media (max-width: 1280px) {
 
- .presentation {
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
- }
+    .presentation {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
 
- .services-grid {
-    flex-direction: column;
- }
+    .services-grid {
+        flex-direction: column;
+    }
 
- .content-detail {
-    padding: 0;
- }
+    .content-detail {
+        padding: 0;
+    }
 
- .project-photo {
-   max-width: 80vw;
- }
+    .project-photo {
+        max-width: 80vw;
+    }
 
 }
- 
-
-
-
-
