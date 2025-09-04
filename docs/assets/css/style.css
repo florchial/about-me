@@ -401,7 +401,7 @@ ul {
     }
 }
 
-@media only screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
 
     .presentation {
         flex-direction: column;
@@ -443,7 +443,7 @@ ul {
     }
 }
 
-@media (hover: none) {
+@media only screen {
     .project-photo {
         filter: grayscale(0.4);
     }
