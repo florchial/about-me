@@ -342,6 +342,11 @@ body {
 }
 
 .outro {
+    gap:15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: 1.1rem;
 }
 
