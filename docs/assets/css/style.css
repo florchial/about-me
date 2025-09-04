@@ -124,8 +124,9 @@ body {
     text-align: center;
     transition: all .3s;
     justify-content: center;
-    align-content: flex-start;
+    align-items: center;
     box-shadow: 0 0 10px var(--light-shadow);
+    max-width: 480px;
 }
 
 .projects-grid a {
@@ -150,6 +151,7 @@ body {
     aspect-ratio: 16 / 9;
     object-fit: cover;
     filter: grayscale(1);
+    align-self: stretch;
 }
 
 .project-information {
@@ -158,13 +160,11 @@ body {
     z-index: 10;
     background-color: var(--card-color);
     border-radius: 5px;
-    align-self: stretch;
     font-weight: 500;
     color: var(--main-color);
-    max-width: 400px;
+    max-width: 480px;
     font-size: 1rem;
     align-self: center;
-    padding: 8px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -424,7 +424,11 @@ ul {
     }
 
     .project-information {
-        max-width: 70vw;
+        max-width: 80vw;
+    }
+
+    .project {
+        max-width: 80vw;
     }
 }
 
