@@ -125,7 +125,7 @@ body {
     transition: all .3s;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px var(--light-shadow);
+    box-shadow: 0 0 10px var(--shadow);
     max-width: 480px;
 }
 
@@ -420,14 +420,25 @@ ul {
     }
 
     .project-photo {
+        filter: grayscale(0.4);
+    }
+
+    .project-information {
+        display: block;
+    }
+
+    .projects-grid {
+        flex-direction: column;
+    }
+    .project {
+        max-width: 80vw;
+    }
+
+    .project-photo {
         max-width: 80vw;
     }
 
     .project-information {
-        max-width: 80vw;
-    }
-
-    .project {
         max-width: 80vw;
     }
 }
