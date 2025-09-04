@@ -401,7 +401,7 @@ ul {
     }
 }
 
-@media (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {
 
     .presentation {
         flex-direction: column;
