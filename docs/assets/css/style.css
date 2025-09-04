@@ -310,7 +310,11 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
+}
+
+.outro {
+    font-size: 1.1rem;
 }
 
 ul {
