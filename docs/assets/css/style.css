@@ -443,7 +443,7 @@ ul {
     }
 }
 
-@media only screen {
+@media only screen  and (max-width: 1280px) {
     .project-photo {
         filter: grayscale(0.4);
     }
