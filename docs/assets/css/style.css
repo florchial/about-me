@@ -121,7 +121,7 @@ body {
 }
 
 .project:hover {
-    scale: 1.05;
+    scale: 1.04;
     .project-photo {
         filter: grayscale(0);
     }
