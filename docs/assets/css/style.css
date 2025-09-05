@@ -31,7 +31,7 @@
     z-index: 200;
     background: var(--light-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    transition: top 0.6s ease-in-out;
+    transition: top 0.4s ease-in-out;
 }
 
 .nav-links {
@@ -417,6 +417,10 @@ ul {
     animation:
         typing 4s steps(35, end) infinite,
         blink 0.8s infinite;
+}
+
+.footer-content {
+    margin-bottom: 2rem;
 }
 
 @keyframes reveal {
