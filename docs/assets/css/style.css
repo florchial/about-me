@@ -23,6 +23,7 @@
 .navbar {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1rem;
     position: fixed;
@@ -31,7 +32,7 @@
     z-index: 200;
     background: var(--light-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    transition: top 0.4s ease-in-out;
+    transition: top 0.6s ease-in-out;
 }
 
 .nav-links {
@@ -495,8 +496,5 @@ ul {
 
     .project-information {
         max-width: 80vw;
-    }
-    .navbar {
-        display: none;
     }
 }
