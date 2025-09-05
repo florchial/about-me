@@ -496,4 +496,7 @@ ul {
     .project-information {
         max-width: 80vw;
     }
+    .navbar {
+        display: none;
+    }
 }
