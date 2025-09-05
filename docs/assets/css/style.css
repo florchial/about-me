@@ -14,16 +14,9 @@
     scroll-behavior: smooth;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .navbar {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     padding: 1rem;
     position: fixed;
@@ -48,7 +41,6 @@
     font-weight: 500;
     font-size: larger;
     transition: color 0.3s ease;
-    flex: 1;
 }
 
 .nav-links li a:hover {
