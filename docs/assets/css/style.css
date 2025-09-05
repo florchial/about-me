@@ -10,7 +10,7 @@
     --card-color: rgba(255, 255, 255, 0.813);
     --light-shadow: rgba(33, 33, 33, 0.162);
     --shadow: rgba(33, 33, 33, 0.674);
-    --glass-effect-color: rgba(255, 255, 255, 0.748);
+    --transparent-lighter-color: rgba(255, 255, 255, 0.5);
     scroll-behavior: smooth;
 }
 
@@ -24,14 +24,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.1rem;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
-    background: var(glass-effect-color);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    z-index: 200;
+    background: var(--light-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
 }
 
 .nav-links {
@@ -39,11 +38,12 @@
     display: flex;
     gap: 1.5rem;
     padding: 1rem;
+    flex-shrink: 1;
 }
 
 .nav-links li a {
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--text-color);
     font-weight: 500;
     font-size: larger;
     transition: color 0.3s ease;
