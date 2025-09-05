@@ -400,21 +400,6 @@
 
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
-
-        let lastScroll = 0;
-        const navbar = document.querySelector(".navbar");
-
-        window.addEventListener("scroll", () => {
-            const currentScroll = window.pageYOffset;
-
-            if (currentScroll > lastScroll) {
-                navbar.classList.add("hide");
-            } else {
-                navbar.classList.remove("hide");
-            }
-
-            lastScroll = currentScroll;
-        });
     </script>
 </body>
 
