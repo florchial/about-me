@@ -38,7 +38,8 @@
     display: flex;
     gap: 1.5rem;
     padding: 1rem;
-    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-links li a {
@@ -47,6 +48,7 @@
     font-weight: 500;
     font-size: larger;
     transition: color 0.3s ease;
+    flex: 1;
 }
 
 .nav-links li a:hover {
