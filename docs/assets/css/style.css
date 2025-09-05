@@ -196,13 +196,13 @@ body {
     background-color: var(--card-color);
     font-weight: 500;
     color: var(--main-color);
+    width: 100%;
     font-size: 1rem;
     align-self: stretch;
     margin-bottom: 20px;
     text-align: center;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    padding: 1rem;
 }
 
 .project-information svg {
