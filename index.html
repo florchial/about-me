@@ -13,13 +13,17 @@
 </head>
 
 <body>
+    <header>
+    
+    </header>
+
     <main>
         <section class="main-content">
             <div class="presentation">
                 <div class="personal-information">
                     <img class="profile-photo" src="./docs/assets/img/profile-photo.jpeg" alt="Profile photo" />
                     <div class="name">Hi, I'm Flor Chialvo</div>
-                    <div class="subtitle">I'm a Software Engineer </div>
+                    <div class="subtitle">I'm a Software Engineer</div>
                     <div class="contact">
                         <a href="./docs/assets/files/chialvo-mf-cv.pdf" target="_blank">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -261,27 +265,28 @@
                                 <div class="project-name">Championship score app</div>
                             </div>
                         </a>
-                        <a href="https://github.com/florchial/space-launches-website" target="_blank">
-                            <div class="project">
-                                <img class="project-photo" src="./docs/assets/img/spaceX-launches.png"
-                                    alt="Profile photo" />
-                                <div class="project-information">
-                                    <p>Data-driven landing page consuming the SpaceX API to display launch history.</p>
-                                    <p>Built with Astro + Typescript</p>
-                                    <p>View project
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="icon icon-tabler icons-tabler-outline icon-tabler-trending-up">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path d="M3 17l6 -6l4 4l8 -8" />
-                                            <path d="M14 7l7 0l0 7" />
-                                        </svg>
-                                    </p>
-                                </div>
-                                <div class="project-name">SpaceX launches landing</div>
+
+                    <a href="https://github.com/florchial/space-launches-website" target="_blank">
+                        <div class="project">
+                            <img class="project-photo" src="./docs/assets/img/spaceX-launches.png"
+                                alt="Profile photo" />
+                            <div class="project-information">
+                                <p>Data-driven landing page consuming the SpaceX API to display launch history.</p>
+                                <p>Built with Astro + Typescript</p>
+                                <p>View project
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-trending-up">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M3 17l6 -6l4 4l8 -8" />
+                                        <path d="M14 7l7 0l0 7" />
+                                    </svg>
+                                </p>
                             </div>
-                        </a>
-                    </div>
+                            <div class="project-name">SpaceX launches landing</div>
+                        </div>
+                    </a>
+                </div>
                 </div>
                 <div id="experience-detail" class="detail">
                     <div class="title">+10 years of experience</div>
@@ -388,6 +393,7 @@
 
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
+       
     </script>
 </body>
 
