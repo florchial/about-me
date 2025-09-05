@@ -14,7 +14,15 @@
 
 <body>
     <header>
-
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="##whatido-detail">Me</a></li>
+                <li><a href="##whatido-detail">What I do?</a></li>
+                <li><a href="#services">Recent projects</a></li>
+                <li><a href="#projects">Experience</a></li>
+                <li><a href="#contact">Let's talk!</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -226,7 +234,7 @@
                     <div class="title">Recent projects</div>
                     <div class="projects-grid">
                         <a href="https://github.com/florchial/spotify-astro-clone" target="_blank">
-                            <div class="project">
+                            <article class="project">
                                 <img class="project-photo" src="./docs/assets/img/music-player.png"
                                     alt="Profile photo" />
                                 <div class="project-information">
@@ -243,10 +251,10 @@
                                     </p>
                                 </div>
                                 <div class="project-name">Music player</div>
-                            </div>
+                            </article>
                         </a>
                         <a href="https://github.com/florchial/athlete-scoring-app" target="_blank">
-                            <div class="project">
+                            <article class="project">
                                 <img class="project-photo" src="./docs/assets/img/athlete-score-app.jpg"
                                     alt="Profile photo" />
                                 <div class="project-information">
@@ -263,29 +271,29 @@
                                     </p>
                                 </div>
                                 <div class="project-name">Championship score app</div>
-                            </div>
-                        </a>
-                        <a href="https://github.com/florchial/space-launches-website" target="_blank">
-                            <div class="project">
-                                <img class="project-photo" src="./docs/assets/img/spaceX-launches.png"
-                                    alt="Profile photo" />
-                                <div class="project-information">
-                                    <p>Data-driven landing page consuming the SpaceX API to display launch history.</p>
-                                    <p>Built with Astro + Typescript</p>
-                                    <p>View project
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="icon icon-tabler icons-tabler-outline icon-tabler-trending-up">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path d="M3 17l6 -6l4 4l8 -8" />
-                                            <path d="M14 7l7 0l0 7" />
-                                        </svg>
-                                    </p>
-                                </div>
-                                <div class="project-name">SpaceX launches landing</div>
-                            </div>
-                        </a>
                     </div>
+                    </article>
+                    <a href="https://github.com/florchial/space-launches-website" target="_blank">
+                        <article class="project">
+                            <img class="project-photo" src="./docs/assets/img/spaceX-launches.png"
+                                alt="Profile photo" />
+                            <div class="project-information">
+                                <p>Data-driven landing page consuming the SpaceX API to display launch history.</p>
+                                <p>Built with Astro + Typescript</p>
+                                <p>View project
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-trending-up">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M3 17l6 -6l4 4l8 -8" />
+                                        <path d="M14 7l7 0l0 7" />
+                                    </svg>
+                                </p>
+                            </div>
+                            <div class="project-name">SpaceX launches landing</div>
+                        </article>
+                    </a>
+                </div>
                 </div>
                 <div id="experience-detail" class="detail">
                     <div class="title">+10 years of experience</div>
@@ -326,12 +334,12 @@
                     </div>
                 </div>
                 <div class="outro">
-                <div>Looking for a reliable engineer to fix or scale your project?</div>
-                <a class="highlight" id="talk-highlight" href="mailto:mf.chialvo@gmail.com" target="_blank">
-                    <div class="highlight-link">
-                        <div>LET'S TALK!</div>
-                    </div>
-                </a>
+                    <div>Looking for a reliable engineer to fix or scale your project?</div>
+                    <a class="highlight" id="talk-highlight" href="mailto:mf.chialvo@gmail.com" target="_blank">
+                        <div class="highlight-link">
+                            <div>LET'S TALK!</div>
+                        </div>
+                    </a>
                 </div>
             </section>
         </section>
