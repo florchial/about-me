@@ -11,7 +11,7 @@ The site includes:
 - Interactive elements with smooth scrolling navigation
 
 
-### Design & Development Details:
+## Design & Development Details:
 - HTML5/CSS3 structure with modern styling
 - Responsive layout using CSS
 - Smooth animations for a polished user experience
