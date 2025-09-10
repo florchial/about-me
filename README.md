@@ -1,6 +1,6 @@
 # About me - Portfolio Website
 
-This is a personal portfolio website showcasing my skills and experience as a software engineer.
+This is a personal portfolio website showcasing my skills and experience as a software engineer. [View live here!](https://florchial.github.io/about-me/)
 
 ## Overview
 
@@ -24,6 +24,7 @@ Here are some images of the portfolio site:
 ![Screenshot 1](docs/assets/img/Screenshot1.png)
 ![Screenshot 2](docs/assets/img/Screenshot2.png)
 ![Screenshot 3](docs/assets/img/Screenshot3.png)
+
 
 ## Contact
 
