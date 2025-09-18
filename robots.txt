@@ -1,0 +1,4 @@
+<!-- filepath: /Users/florchial/Projects/about-me/robots.txt -->
+User-agent: *
+Allow: /
+Sitemap: https://florchial.github.io/about-me/sitemap.xml
