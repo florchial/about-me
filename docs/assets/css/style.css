@@ -24,6 +24,10 @@ body {
     text-align: center;
 }
 
+a {
+    all: unset
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -110,6 +114,11 @@ body {
 
 .contact a {
     text-decoration: none;
+}
+
+.footer-anchor{
+    text-decoration: underline;
+    color: var(--text-color);
 }
 
 .profile-photo {
